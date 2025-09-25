@@ -5,6 +5,9 @@ Inspired by iOS design principles – smooth cards, soft shadows, and elegant ty
 The app features a simple toggle between Sign In and Sign Up, with a subtle background shift when switching views.
 
 ![alt text](image.png)
+
+
+
 Features
 
  iOS-style UI – clean, rounded containers with glass-like shadows.
