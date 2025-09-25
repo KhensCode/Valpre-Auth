@@ -1,0 +1,94 @@
+html{
+  
+
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+margin:0;
+padding:0;
+
+}
+.body1{
+    background: hsl(202, 30%, 56%);
+}
+.googleicon{
+    width:40px;
+    height:20px;
+}
+body{
+    height:92vh;
+    display: flex;
+      background: #7fb2cf;
+    align-items: center;
+    
+    justify-content: center;
+}
+#container{
+    color:#8a8484;
+    background: #f5f4f3;
+    padding:20px 1.4rem;
+    border-radius: 17px;
+   /* From https://css.glass */
+background:#f5f4f3;
+box-shadow: rgba(34, 36, 35, 0.26)  0px 1px 10px 2px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+    width:100%;
+    height:auto;
+   
+
+    
+}
+#container h1{
+    color:#251e1e;
+}
+.data{
+ 
+ width:100%;
+}
+.data h3{
+    color:#221d1dc4;
+    font-weight: 600;
+}
+.input{
+  width: 92%;
+    padding:10px;
+    border-radius: 9px;
+
+    outline:0;
+    font-style: italic;
+    font-size: 14px;
+    border: 1px solid rgb(230, 225, 227);
+}
+.options{
+    display: flex;
+    justify-content: space-between;
+    
+}
+a{
+    cursor: pointer;
+}
+.sign-in-btns{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+.signin  , .google{
+    border:0;
+    padding:15px;
+    cursor: pointer;
+        color:#fff;
+        font-weight: 700;
+        border-radius: 1cm;
+    
+}
+.signin{
+    background-color: rgb(156, 156, 224);
+
+}
+.google{
+    background: rgb(221, 215, 215);
+    color:#000;
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    gap:10px;
+ 
+}
